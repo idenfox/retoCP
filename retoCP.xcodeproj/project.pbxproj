@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED0CEC4826A3F790005308AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEC4726A3F790005308AD /* AppDelegate.swift */; };
+		ED0CEC4A26A3F790005308AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEC4926A3F790005308AD /* SceneDelegate.swift */; };
+		ED0CEC4C26A3F790005308AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEC4B26A3F790005308AD /* ViewController.swift */; };
+		ED0CEC4F26A3F790005308AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0CEC4D26A3F790005308AD /* Main.storyboard */; };
+		ED0CEC5126A3F791005308AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0CEC5026A3F791005308AD /* Assets.xcassets */; };
+		ED0CEC5426A3F791005308AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0CEC5226A3F791005308AD /* LaunchScreen.storyboard */; };
+		ED0CEC5F26A3F791005308AD /* retoCPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEC5E26A3F791005308AD /* retoCPTests.swift */; };
+		ED0CEC6A26A3F791005308AD /* retoCPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEC6926A3F791005308AD /* retoCPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED0CEC5B26A3F791005308AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED0CEC3C26A3F790005308AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED0CEC4326A3F790005308AD;
+			remoteInfo = retoCP;
+		};
+		ED0CEC6626A3F791005308AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED0CEC3C26A3F790005308AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED0CEC4326A3F790005308AD;
+			remoteInfo = retoCP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED0CEC4426A3F790005308AD /* retoCP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = retoCP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0CEC4726A3F790005308AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED0CEC4926A3F790005308AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED0CEC4B26A3F790005308AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED0CEC4E26A3F790005308AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED0CEC5026A3F791005308AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED0CEC5326A3F791005308AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED0CEC5526A3F791005308AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0CEC5A26A3F791005308AD /* retoCPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = retoCPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0CEC5E26A3F791005308AD /* retoCPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retoCPTests.swift; sourceTree = "<group>"; };
+		ED0CEC6026A3F791005308AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0CEC6526A3F791005308AD /* retoCPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = retoCPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0CEC6926A3F791005308AD /* retoCPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retoCPUITests.swift; sourceTree = "<group>"; };
+		ED0CEC6B26A3F791005308AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED0CEC4126A3F790005308AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0CEC5726A3F791005308AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0CEC6226A3F791005308AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED0CEC3B26A3F790005308AD = {
+			isa = PBXGroup;
+			children = (
+				ED0CEC4626A3F790005308AD /* retoCP */,
+				ED0CEC5D26A3F791005308AD /* retoCPTests */,
+				ED0CEC6826A3F791005308AD /* retoCPUITests */,
+				ED0CEC4526A3F790005308AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED0CEC4526A3F790005308AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED0CEC4426A3F790005308AD /* retoCP.app */,
+				ED0CEC5A26A3F791005308AD /* retoCPTests.xctest */,
+				ED0CEC6526A3F791005308AD /* retoCPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED0CEC4626A3F790005308AD /* retoCP */ = {
+			isa = PBXGroup;
+			children = (
+				ED0CEC4726A3F790005308AD /* AppDelegate.swift */,
+				ED0CEC4926A3F790005308AD /* SceneDelegate.swift */,
+				ED0CEC4B26A3F790005308AD /* ViewController.swift */,
+				ED0CEC4D26A3F790005308AD /* Main.storyboard */,
+				ED0CEC5026A3F791005308AD /* Assets.xcassets */,
+				ED0CEC5226A3F791005308AD /* LaunchScreen.storyboard */,
+				ED0CEC5526A3F791005308AD /* Info.plist */,
+			);
+			path = retoCP;
+			sourceTree = "<group>";
+		};
+		ED0CEC5D26A3F791005308AD /* retoCPTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED0CEC5E26A3F791005308AD /* retoCPTests.swift */,
+				ED0CEC6026A3F791005308AD /* Info.plist */,
+			);
+			path = retoCPTests;
+			sourceTree = "<group>";
+		};
+		ED0CEC6826A3F791005308AD /* retoCPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED0CEC6926A3F791005308AD /* retoCPUITests.swift */,
+				ED0CEC6B26A3F791005308AD /* Info.plist */,
+			);
+			path = retoCPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED0CEC4326A3F790005308AD /* retoCP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0CEC6E26A3F791005308AD /* Build configuration list for PBXNativeTarget "retoCP" */;
+			buildPhases = (
+				ED0CEC4026A3F790005308AD /* Sources */,
+				ED0CEC4126A3F790005308AD /* Frameworks */,
+				ED0CEC4226A3F790005308AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = retoCP;
+			productName = retoCP;
+			productReference = ED0CEC4426A3F790005308AD /* retoCP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED0CEC5926A3F791005308AD /* retoCPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0CEC7126A3F791005308AD /* Build configuration list for PBXNativeTarget "retoCPTests" */;
+			buildPhases = (
+				ED0CEC5626A3F791005308AD /* Sources */,
+				ED0CEC5726A3F791005308AD /* Frameworks */,
+				ED0CEC5826A3F791005308AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED0CEC5C26A3F791005308AD /* PBXTargetDependency */,
+			);
+			name = retoCPTests;
+			productName = retoCPTests;
+			productReference = ED0CEC5A26A3F791005308AD /* retoCPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED0CEC6426A3F791005308AD /* retoCPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0CEC7426A3F791005308AD /* Build configuration list for PBXNativeTarget "retoCPUITests" */;
+			buildPhases = (
+				ED0CEC6126A3F791005308AD /* Sources */,
+				ED0CEC6226A3F791005308AD /* Frameworks */,
+				ED0CEC6326A3F791005308AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED0CEC6726A3F791005308AD /* PBXTargetDependency */,
+			);
+			name = retoCPUITests;
+			productName = retoCPUITests;
+			productReference = ED0CEC6526A3F791005308AD /* retoCPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED0CEC3C26A3F790005308AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					ED0CEC4326A3F790005308AD = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					ED0CEC5926A3F791005308AD = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = ED0CEC4326A3F790005308AD;
+					};
+					ED0CEC6426A3F791005308AD = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = ED0CEC4326A3F790005308AD;
+					};
+				};
+			};
+			buildConfigurationList = ED0CEC3F26A3F790005308AD /* Build configuration list for PBXProject "retoCP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED0CEC3B26A3F790005308AD;
+			productRefGroup = ED0CEC4526A3F790005308AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED0CEC4326A3F790005308AD /* retoCP */,
+				ED0CEC5926A3F791005308AD /* retoCPTests */,
+				ED0CEC6426A3F791005308AD /* retoCPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED0CEC4226A3F790005308AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0CEC5426A3F791005308AD /* LaunchScreen.storyboard in Resources */,
+				ED0CEC5126A3F791005308AD /* Assets.xcassets in Resources */,
+				ED0CEC4F26A3F790005308AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0CEC5826A3F791005308AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0CEC6326A3F791005308AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED0CEC4026A3F790005308AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0CEC4C26A3F790005308AD /* ViewController.swift in Sources */,
+				ED0CEC4826A3F790005308AD /* AppDelegate.swift in Sources */,
+				ED0CEC4A26A3F790005308AD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0CEC5626A3F791005308AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0CEC5F26A3F791005308AD /* retoCPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0CEC6126A3F791005308AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0CEC6A26A3F791005308AD /* retoCPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED0CEC5C26A3F791005308AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED0CEC4326A3F790005308AD /* retoCP */;
+			targetProxy = ED0CEC5B26A3F791005308AD /* PBXContainerItemProxy */;
+		};
+		ED0CEC6726A3F791005308AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED0CEC4326A3F790005308AD /* retoCP */;
+			targetProxy = ED0CEC6626A3F791005308AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED0CEC4D26A3F790005308AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED0CEC4E26A3F790005308AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED0CEC5226A3F791005308AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED0CEC5326A3F791005308AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED0CEC6C26A3F791005308AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED0CEC6D26A3F791005308AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED0CEC6F26A3F791005308AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FSAYYB49;
+				INFOPLIST_FILE = retoCP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cineplanet.retoCP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED0CEC7026A3F791005308AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FSAYYB49;
+				INFOPLIST_FILE = retoCP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cineplanet.retoCP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED0CEC7226A3F791005308AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FSAYYB49;
+				INFOPLIST_FILE = retoCPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cineplanet.retoCPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/retoCP.app/retoCP";
+			};
+			name = Debug;
+		};
+		ED0CEC7326A3F791005308AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FSAYYB49;
+				INFOPLIST_FILE = retoCPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cineplanet.retoCPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/retoCP.app/retoCP";
+			};
+			name = Release;
+		};
+		ED0CEC7526A3F791005308AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FSAYYB49;
+				INFOPLIST_FILE = retoCPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cineplanet.retoCPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = retoCP;
+			};
+			name = Debug;
+		};
+		ED0CEC7626A3F791005308AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98FSAYYB49;
+				INFOPLIST_FILE = retoCPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cineplanet.retoCPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = retoCP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED0CEC3F26A3F790005308AD /* Build configuration list for PBXProject "retoCP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0CEC6C26A3F791005308AD /* Debug */,
+				ED0CEC6D26A3F791005308AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED0CEC6E26A3F791005308AD /* Build configuration list for PBXNativeTarget "retoCP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0CEC6F26A3F791005308AD /* Debug */,
+				ED0CEC7026A3F791005308AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED0CEC7126A3F791005308AD /* Build configuration list for PBXNativeTarget "retoCPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0CEC7226A3F791005308AD /* Debug */,
+				ED0CEC7326A3F791005308AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED0CEC7426A3F791005308AD /* Build configuration list for PBXNativeTarget "retoCPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0CEC7526A3F791005308AD /* Debug */,
+				ED0CEC7626A3F791005308AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED0CEC3C26A3F790005308AD /* Project object */;
+}
