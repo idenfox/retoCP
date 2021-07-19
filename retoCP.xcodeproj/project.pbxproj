@@ -3,18 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092EBCEA8C362726A00CF82E /* Pods_retoCP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295DD88B21B7E88DF4EE68C2 /* Pods_retoCP.framework */; };
+		D1B2D04C31532053479EEB43 /* Pods_retoCP_retoCPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CCA8C7E40EAF2297355621F /* Pods_retoCP_retoCPUITests.framework */; };
+		E318DB218923C754A2BA6B92 /* Pods_retoCPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB72842B67EDC3205E646F9 /* Pods_retoCPTests.framework */; };
+		ED0B9E4D26A4FA0200E7E350 /* PopUpLoginSuccesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0B9E4C26A4FA0200E7E350 /* PopUpLoginSuccesViewController.swift */; };
+		ED0B9E5026A4FB0400E7E350 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0B9E4F26A4FB0400E7E350 /* Extensions.swift */; };
+		ED0B9E5226A50F4B00E7E350 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0B9E5126A50F4B00E7E350 /* User.swift */; };
+		ED0B9E5526A5349500E7E350 /* CandyStoreWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0B9E5426A5349500E7E350 /* CandyStoreWS.swift */; };
+		ED0B9E5726A53C2B00E7E350 /* DulceriaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0B9E5626A53C2B00E7E350 /* DulceriaTableViewCell.swift */; };
+		ED0B9E5A26A55CA200E7E350 /* PagoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0B9E5926A55CA200E7E350 /* PagoViewController.swift */; };
 		ED0CEC4826A3F790005308AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEC4726A3F790005308AD /* AppDelegate.swift */; };
 		ED0CEC4A26A3F790005308AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEC4926A3F790005308AD /* SceneDelegate.swift */; };
-		ED0CEC4C26A3F790005308AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEC4B26A3F790005308AD /* ViewController.swift */; };
+		ED0CEC4C26A3F790005308AD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEC4B26A3F790005308AD /* HomeViewController.swift */; };
 		ED0CEC4F26A3F790005308AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0CEC4D26A3F790005308AD /* Main.storyboard */; };
 		ED0CEC5126A3F791005308AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0CEC5026A3F791005308AD /* Assets.xcassets */; };
 		ED0CEC5426A3F791005308AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0CEC5226A3F791005308AD /* LaunchScreen.storyboard */; };
 		ED0CEC5F26A3F791005308AD /* retoCPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEC5E26A3F791005308AD /* retoCPTests.swift */; };
 		ED0CEC6A26A3F791005308AD /* retoCPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEC6926A3F791005308AD /* retoCPUITests.swift */; };
+		ED0CEC7B26A3FB12005308AD /* DulceriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEC7A26A3FB12005308AD /* DulceriaViewController.swift */; };
+		ED0CEC7D26A3FB29005308AD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEC7C26A3FB29005308AD /* LoginViewController.swift */; };
+		ED0CEC7F26A40289005308AD /* WebApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEC7E26A40289005308AD /* WebApiClient.swift */; };
+		ED0CEC8426A41120005308AD /* MoviesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CEC8326A41120005308AD /* MoviesCollectionViewCell.swift */; };
+		ED4A5C4326A576C100F1C75E /* PagosWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4A5C4226A576C100F1C75E /* PagosWS.swift */; };
+		ED4A5C4526A5774500F1C75E /* PaymentInputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4A5C4426A5774500F1C75E /* PaymentInputModel.swift */; };
+		ED4A5C4726A592D100F1C75E /* PopUpHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4A5C4626A592D100F1C75E /* PopUpHomeViewController.swift */; };
+		EDD959AE26A41F300088F3C9 /* PremieresWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD959AD26A41F2F0088F3C9 /* PremieresWS.swift */; };
+		EDD959B126A420470088F3C9 /* UILoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD959B026A420470088F3C9 /* UILoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +53,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29439E403C96492961C9965C /* Pods-retoCP-retoCPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retoCP-retoCPUITests.debug.xcconfig"; path = "Target Support Files/Pods-retoCP-retoCPUITests/Pods-retoCP-retoCPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		295DD88B21B7E88DF4EE68C2 /* Pods_retoCP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_retoCP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CCA8C7E40EAF2297355621F /* Pods_retoCP_retoCPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_retoCP_retoCPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54DA2F6F5B31771C6FA495DC /* Pods-retoCP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retoCP.release.xcconfig"; path = "Target Support Files/Pods-retoCP/Pods-retoCP.release.xcconfig"; sourceTree = "<group>"; };
+		80097ED063C41B134BCDC065 /* Pods-retoCP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retoCP.debug.xcconfig"; path = "Target Support Files/Pods-retoCP/Pods-retoCP.debug.xcconfig"; sourceTree = "<group>"; };
+		8BB72842B67EDC3205E646F9 /* Pods_retoCPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_retoCPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0B9E4C26A4FA0200E7E350 /* PopUpLoginSuccesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpLoginSuccesViewController.swift; sourceTree = "<group>"; };
+		ED0B9E4F26A4FB0400E7E350 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		ED0B9E5126A50F4B00E7E350 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ED0B9E5426A5349500E7E350 /* CandyStoreWS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyStoreWS.swift; sourceTree = "<group>"; };
+		ED0B9E5626A53C2B00E7E350 /* DulceriaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DulceriaTableViewCell.swift; sourceTree = "<group>"; };
+		ED0B9E5926A55CA200E7E350 /* PagoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagoViewController.swift; sourceTree = "<group>"; };
 		ED0CEC4426A3F790005308AD /* retoCP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = retoCP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0CEC4726A3F790005308AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED0CEC4926A3F790005308AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED0CEC4B26A3F790005308AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED0CEC4B26A3F790005308AD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		ED0CEC4E26A3F790005308AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED0CEC5026A3F791005308AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED0CEC5326A3F791005308AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +79,18 @@
 		ED0CEC6526A3F791005308AD /* retoCPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = retoCPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0CEC6926A3F791005308AD /* retoCPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retoCPUITests.swift; sourceTree = "<group>"; };
 		ED0CEC6B26A3F791005308AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0CEC7A26A3FB12005308AD /* DulceriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DulceriaViewController.swift; sourceTree = "<group>"; };
+		ED0CEC7C26A3FB29005308AD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ED0CEC7E26A40289005308AD /* WebApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebApiClient.swift; sourceTree = "<group>"; };
+		ED0CEC8326A41120005308AD /* MoviesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED39858807318B7C6A2CC434 /* Pods-retoCPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retoCPTests.release.xcconfig"; path = "Target Support Files/Pods-retoCPTests/Pods-retoCPTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED4A5C4226A576C100F1C75E /* PagosWS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagosWS.swift; sourceTree = "<group>"; };
+		ED4A5C4426A5774500F1C75E /* PaymentInputModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInputModel.swift; sourceTree = "<group>"; };
+		ED4A5C4626A592D100F1C75E /* PopUpHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpHomeViewController.swift; sourceTree = "<group>"; };
+		EDD959AD26A41F2F0088F3C9 /* PremieresWS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremieresWS.swift; sourceTree = "<group>"; };
+		EDD959B026A420470088F3C9 /* UILoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILoader.swift; sourceTree = "<group>"; };
+		F660D57FCD2E337A40184B00 /* Pods-retoCPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retoCPTests.debug.xcconfig"; path = "Target Support Files/Pods-retoCPTests/Pods-retoCPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F68684A688FBCA916D7F678B /* Pods-retoCP-retoCPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retoCP-retoCPUITests.release.xcconfig"; path = "Target Support Files/Pods-retoCP-retoCPUITests/Pods-retoCP-retoCPUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092EBCEA8C362726A00CF82E /* Pods_retoCP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E318DB218923C754A2BA6B92 /* Pods_retoCPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +114,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1B2D04C31532053479EEB43 /* Pods_retoCP_retoCPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16A0AAB5776C9EC4F19D0894 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				295DD88B21B7E88DF4EE68C2 /* Pods_retoCP.framework */,
+				3CCA8C7E40EAF2297355621F /* Pods_retoCP_retoCPUITests.framework */,
+				8BB72842B67EDC3205E646F9 /* Pods_retoCPTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2429FAA04D5EA5C69D5AE22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80097ED063C41B134BCDC065 /* Pods-retoCP.debug.xcconfig */,
+				54DA2F6F5B31771C6FA495DC /* Pods-retoCP.release.xcconfig */,
+				29439E403C96492961C9965C /* Pods-retoCP-retoCPUITests.debug.xcconfig */,
+				F68684A688FBCA916D7F678B /* Pods-retoCP-retoCPUITests.release.xcconfig */,
+				F660D57FCD2E337A40184B00 /* Pods-retoCPTests.debug.xcconfig */,
+				ED39858807318B7C6A2CC434 /* Pods-retoCPTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED0B9E4B26A4F9DA00E7E350 /* Popups */ = {
+			isa = PBXGroup;
+			children = (
+				ED0B9E4C26A4FA0200E7E350 /* PopUpLoginSuccesViewController.swift */,
+				ED4A5C4626A592D100F1C75E /* PopUpHomeViewController.swift */,
+			);
+			path = Popups;
+			sourceTree = "<group>";
+		};
+		ED0B9E4E26A4FAF200E7E350 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ED0B9E4F26A4FB0400E7E350 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ED0B9E5326A5348400E7E350 /* Dulceria */ = {
+			isa = PBXGroup;
+			children = (
+				ED0B9E5426A5349500E7E350 /* CandyStoreWS.swift */,
+			);
+			path = Dulceria;
+			sourceTree = "<group>";
+		};
+		ED0B9E5826A55C7F00E7E350 /* PantallaPago */ = {
+			isa = PBXGroup;
+			children = (
+				ED0B9E5926A55CA200E7E350 /* PagoViewController.swift */,
+			);
+			path = PantallaPago;
+			sourceTree = "<group>";
+		};
 		ED0CEC3B26A3F790005308AD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +184,8 @@
 				ED0CEC5D26A3F791005308AD /* retoCPTests */,
 				ED0CEC6826A3F791005308AD /* retoCPUITests */,
 				ED0CEC4526A3F790005308AD /* Products */,
+				A2429FAA04D5EA5C69D5AE22 /* Pods */,
+				16A0AAB5776C9EC4F19D0894 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +202,11 @@
 		ED0CEC4626A3F790005308AD /* retoCP */ = {
 			isa = PBXGroup;
 			children = (
+				ED0CEC7726A3F7B9005308AD /* Model */,
+				ED0CEC7826A3F7BF005308AD /* View */,
+				ED0CEC7926A3F7C5005308AD /* Controller */,
 				ED0CEC4726A3F790005308AD /* AppDelegate.swift */,
 				ED0CEC4926A3F790005308AD /* SceneDelegate.swift */,
-				ED0CEC4B26A3F790005308AD /* ViewController.swift */,
-				ED0CEC4D26A3F790005308AD /* Main.storyboard */,
 				ED0CEC5026A3F791005308AD /* Assets.xcassets */,
 				ED0CEC5226A3F791005308AD /* LaunchScreen.storyboard */,
 				ED0CEC5526A3F791005308AD /* Info.plist */,
@@ -128,6 +232,107 @@
 			path = retoCPUITests;
 			sourceTree = "<group>";
 		};
+		ED0CEC7726A3F7B9005308AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDD959AB26A41EE40088F3C9 /* Network */,
+				ED0B9E5126A50F4B00E7E350 /* User.swift */,
+				ED4A5C4426A5774500F1C75E /* PaymentInputModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED0CEC7826A3F7BF005308AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDD959AF26A420340088F3C9 /* Util */,
+				ED0CEC4D26A3F790005308AD /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED0CEC7926A3F7C5005308AD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED0B9E4E26A4FAF200E7E350 /* Extensions */,
+				ED0B9E5826A55C7F00E7E350 /* PantallaPago */,
+				ED0B9E4B26A4F9DA00E7E350 /* Popups */,
+				ED0CEC8226A410D2005308AD /* Login */,
+				ED0CEC8126A410CB005308AD /* Dulceria */,
+				ED0CEC8026A410BE005308AD /* Home */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED0CEC8026A410BE005308AD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ED0CEC4B26A3F790005308AD /* HomeViewController.swift */,
+				ED0CEC8326A41120005308AD /* MoviesCollectionViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		ED0CEC8126A410CB005308AD /* Dulceria */ = {
+			isa = PBXGroup;
+			children = (
+				ED0CEC7A26A3FB12005308AD /* DulceriaViewController.swift */,
+				ED0B9E5626A53C2B00E7E350 /* DulceriaTableViewCell.swift */,
+			);
+			path = Dulceria;
+			sourceTree = "<group>";
+		};
+		ED0CEC8226A410D2005308AD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				ED0CEC7C26A3FB29005308AD /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		ED4A5C4126A576B400F1C75E /* Pagos */ = {
+			isa = PBXGroup;
+			children = (
+				ED4A5C4226A576C100F1C75E /* PagosWS.swift */,
+			);
+			path = Pagos;
+			sourceTree = "<group>";
+		};
+		EDD959AA26A41ED40088F3C9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ED4A5C4126A576B400F1C75E /* Pagos */,
+				ED0B9E5326A5348400E7E350 /* Dulceria */,
+				EDD959AC26A41F030088F3C9 /* Home */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EDD959AB26A41EE40088F3C9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				ED0CEC7E26A40289005308AD /* WebApiClient.swift */,
+				EDD959AA26A41ED40088F3C9 /* Services */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EDD959AC26A41F030088F3C9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EDD959AD26A41F2F0088F3C9 /* PremieresWS.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EDD959AF26A420340088F3C9 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				EDD959B026A420470088F3C9 /* UILoader.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +340,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED0CEC6E26A3F791005308AD /* Build configuration list for PBXNativeTarget "retoCP" */;
 			buildPhases = (
+				BBFE45365DAB93C307FBA913 /* [CP] Check Pods Manifest.lock */,
 				ED0CEC4026A3F790005308AD /* Sources */,
 				ED0CEC4126A3F790005308AD /* Frameworks */,
 				ED0CEC4226A3F790005308AD /* Resources */,
+				D58AC187E493C6198EA24853 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +359,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED0CEC7126A3F791005308AD /* Build configuration list for PBXNativeTarget "retoCPTests" */;
 			buildPhases = (
+				F170B8F28682F1A36559A925 /* [CP] Check Pods Manifest.lock */,
 				ED0CEC5626A3F791005308AD /* Sources */,
 				ED0CEC5726A3F791005308AD /* Frameworks */,
 				ED0CEC5826A3F791005308AD /* Resources */,
@@ -170,9 +378,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED0CEC7426A3F791005308AD /* Build configuration list for PBXNativeTarget "retoCPUITests" */;
 			buildPhases = (
+				48E49A60BF08F8321B8B2811 /* [CP] Check Pods Manifest.lock */,
 				ED0CEC6126A3F791005308AD /* Sources */,
 				ED0CEC6226A3F791005308AD /* Frameworks */,
 				ED0CEC6326A3F791005308AD /* Resources */,
+				D953564C9320A8FFBFC4189C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +463,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48E49A60BF08F8321B8B2811 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-retoCP-retoCPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBFE45365DAB93C307FBA913 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-retoCP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D58AC187E493C6198EA24853 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-retoCP/Pods-retoCP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-retoCP/Pods-retoCP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-retoCP/Pods-retoCP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D953564C9320A8FFBFC4189C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-retoCP-retoCPUITests/Pods-retoCP-retoCPUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-retoCP-retoCPUITests/Pods-retoCP-retoCPUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-retoCP-retoCPUITests/Pods-retoCP-retoCPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F170B8F28682F1A36559A925 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-retoCPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED0CEC4026A3F790005308AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED0CEC4C26A3F790005308AD /* ViewController.swift in Sources */,
+				ED0B9E5726A53C2B00E7E350 /* DulceriaTableViewCell.swift in Sources */,
+				ED0CEC4C26A3F790005308AD /* HomeViewController.swift in Sources */,
+				ED4A5C4726A592D100F1C75E /* PopUpHomeViewController.swift in Sources */,
+				ED0B9E5526A5349500E7E350 /* CandyStoreWS.swift in Sources */,
 				ED0CEC4826A3F790005308AD /* AppDelegate.swift in Sources */,
+				EDD959AE26A41F300088F3C9 /* PremieresWS.swift in Sources */,
+				EDD959B126A420470088F3C9 /* UILoader.swift in Sources */,
+				ED4A5C4526A5774500F1C75E /* PaymentInputModel.swift in Sources */,
 				ED0CEC4A26A3F790005308AD /* SceneDelegate.swift in Sources */,
+				ED0B9E5A26A55CA200E7E350 /* PagoViewController.swift in Sources */,
+				ED0CEC7D26A3FB29005308AD /* LoginViewController.swift in Sources */,
+				ED0CEC7F26A40289005308AD /* WebApiClient.swift in Sources */,
+				ED0B9E4D26A4FA0200E7E350 /* PopUpLoginSuccesViewController.swift in Sources */,
+				ED0B9E5226A50F4B00E7E350 /* User.swift in Sources */,
+				ED4A5C4326A576C100F1C75E /* PagosWS.swift in Sources */,
+				ED0CEC7B26A3FB12005308AD /* DulceriaViewController.swift in Sources */,
+				ED0B9E5026A4FB0400E7E350 /* Extensions.swift in Sources */,
+				ED0CEC8426A41120005308AD /* MoviesCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,44 +761,47 @@
 		};
 		ED0CEC6F26A3F791005308AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80097ED063C41B134BCDC065 /* Pods-retoCP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 98FSAYYB49;
+				DEVELOPMENT_TEAM = Z9C4ZWSUSE;
 				INFOPLIST_FILE = retoCP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cineplanet.retoCP;
+				PRODUCT_BUNDLE_IDENTIFIER = renzo.retoCP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		ED0CEC7026A3F791005308AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54DA2F6F5B31771C6FA495DC /* Pods-retoCP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 98FSAYYB49;
+				DEVELOPMENT_TEAM = Z9C4ZWSUSE;
 				INFOPLIST_FILE = retoCP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cineplanet.retoCP;
+				PRODUCT_BUNDLE_IDENTIFIER = renzo.retoCP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		ED0CEC7226A3F791005308AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F660D57FCD2E337A40184B00 /* Pods-retoCPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +824,7 @@
 		};
 		ED0CEC7326A3F791005308AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED39858807318B7C6A2CC434 /* Pods-retoCPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +847,7 @@
 		};
 		ED0CEC7526A3F791005308AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29439E403C96492961C9965C /* Pods-retoCP-retoCPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +868,7 @@
 		};
 		ED0CEC7626A3F791005308AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68684A688FBCA916D7F678B /* Pods-retoCP-retoCPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
