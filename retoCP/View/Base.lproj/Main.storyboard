@@ -1204,12 +1204,30 @@
                                             </button>
                                         </subviews>
                                     </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMc-mZ-jEG">
+                                        <rect key="frame" x="280" y="15" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="bPF-b7-gm4"/>
+                                            <constraint firstAttribute="width" constant="30" id="j8o-uc-nNa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="x.circle.fill" catalog="system">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="cancelTapped:" destination="gWz-iR-o2Y" eventType="touchUpInside" id="daE-V7-Dyx"/>
+                                            <action selector="signOutTapped:" destination="CkD-ow-J5y" eventType="touchUpInside" id="n9J-OW-5ww"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="UMc-mZ-jEG" firstAttribute="top" secondItem="WEn-pr-9ib" secondAttribute="top" constant="15" id="AhF-wc-GSW"/>
                                     <constraint firstAttribute="bottom" secondItem="Jb4-Fn-HLj" secondAttribute="bottom" constant="15" id="Oik-fd-l1K"/>
                                     <constraint firstItem="75a-ca-uhT" firstAttribute="centerX" secondItem="WEn-pr-9ib" secondAttribute="centerX" id="PFF-Lc-xoW"/>
                                     <constraint firstItem="Jb4-Fn-HLj" firstAttribute="centerX" secondItem="WEn-pr-9ib" secondAttribute="centerX" id="X8O-d4-fwP"/>
+                                    <constraint firstAttribute="trailing" secondItem="UMc-mZ-jEG" secondAttribute="trailing" constant="15" id="fSf-bt-vPb"/>
                                     <constraint firstAttribute="trailing" secondItem="75a-ca-uhT" secondAttribute="trailing" constant="40" id="mv4-RT-gZq"/>
                                     <constraint firstItem="G6n-QN-o4t" firstAttribute="centerX" secondItem="WEn-pr-9ib" secondAttribute="centerX" id="p7G-3K-ziu"/>
                                     <constraint firstItem="75a-ca-uhT" firstAttribute="top" secondItem="G6n-QN-o4t" secondAttribute="bottom" constant="30" id="sCG-Ua-4Ui"/>
@@ -1231,6 +1249,7 @@
                     <navigationItem key="navigationItem" id="NL4-D7-RjY"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="cancelButton" destination="UMc-mZ-jEG" id="htZ-kP-8Oz"/>
                         <outlet property="goToCandyShopButton" destination="MSf-AK-qiH" id="aco-ic-AW9"/>
                         <outlet property="goToLoginButton" destination="FrY-Af-z3j" id="DEU-E9-t6b"/>
                         <outlet property="popUpView" destination="WEn-pr-9ib" id="sLP-L7-AdY"/>
@@ -1238,7 +1257,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xVv-Mz-4pB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1327" y="645"/>
+            <point key="canvasLocation" x="-1258.4000000000001" y="644.52773613193403"/>
         </scene>
     </scenes>
     <resources>
@@ -1258,6 +1277,7 @@
         <image name="popcorn" width="512" height="512"/>
         <image name="signOut" width="96" height="96"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
+        <image name="x.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

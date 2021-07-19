@@ -56,7 +56,7 @@ class HomeViewController: UIViewController {
         }
     }
     private func getMovieList() {
-        PremieresWS.sharedService.getMoviesData(self) { movies in
+        PremieresWS.sharedService.getMoviesData(collectionView) { movies in
             self.moviesList = movies
             self.collectionView.reloadData()
             DispatchQueue.main.async {
@@ -81,6 +81,7 @@ class HomeViewController: UIViewController {
      if counter < moviesList.count {
          let index = IndexPath.init(item: counter, section: 0)
          self.collectionView.scrollToItem(at: index, at: .centeredHorizontally, animated: true)
+        counter = index.item
          counter += 1
      } else {
          counter = 0

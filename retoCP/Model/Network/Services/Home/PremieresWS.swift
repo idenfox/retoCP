@@ -12,8 +12,8 @@ class PremieresWS{
     
     static let sharedService = PremieresWS()
     
-    func getMoviesData(_ view:UIViewController, successResponse success: @escaping([MovieModel]) -> Void, failureResponse failure: @escaping(_ errorMsg: String) -> Void) -> Void {
-        UILoader.instance.showOverlay(view: view.view)
+    func getMoviesData(_ view:UIView, successResponse success: @escaping([MovieModel]) -> Void, failureResponse failure: @escaping(_ errorMsg: String) -> Void) -> Void {
+        UILoader.instance.showOverlay(view: view)
         WebApiClient.sharedInstance.getUrlWithCompletion(url: "premieres", params: nil) { finished, result in
             UILoader.instance.finishOverlay()
             if finished {

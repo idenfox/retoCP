@@ -17,6 +17,7 @@ class PopUpHomeViewController: UIViewController {
     @IBOutlet weak var goToLoginButton: UIButton!
     @IBOutlet weak var goToCandyShopButton: UIButton!
     @IBOutlet weak var popUpView: UIView!
+    @IBOutlet weak var cancelButton: UIButton!
     
     var delegate: PopUpHomeDelegate?
 
@@ -34,6 +35,10 @@ class PopUpHomeViewController: UIViewController {
     
     @IBAction func goToStoreTapped(_ sender: Any) {
         delegate?.didTappedStore()
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func cancelTapped(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
     
